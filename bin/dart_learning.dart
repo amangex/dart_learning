@@ -1,9 +1,11 @@
 
 void main() {
   var count = 0;
-  while(count < 5) {
+  do {
     count++;
 
+    if (count == 3) break;
+
     print(count);
-  }
+  }while(count < 5);
 }
