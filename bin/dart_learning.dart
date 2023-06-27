@@ -1,11 +1,10 @@
 void main() {
- final List numbers1 = <int>[1, 2, 3];
- List numbers2 = [for(var i in numbers1) i * i, 9, 4, 1];
+  Map phonebook = <String, String>{
+    'name1': 'phonenumber1', 
+    'name2': 'phonenumber2',
+    'name3': 'phonenumber3',
 
- numbers1.add(4);
+  };
 
- // print(numbers1.length);
- // print(numbers2.length);
- print(numbers1);
- print(numbers2);
+ print(phonebook);
 }
