@@ -1,11 +1,9 @@
 
 void main() {
-  var numbers = <int>[1, 2, 3, 4, 5];
+  var count = 0;
+  while(count < 5) {
+    count++;
 
-
-  for(var element in numbers) {
-    var square = element * element;
-
-    print('$element^2 = $square');
+    print(count);
   }
 }
