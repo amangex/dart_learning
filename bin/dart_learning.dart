@@ -4,7 +4,7 @@ void main() {
   do {
     count++;
 
-    if (count == 3) break;
+    if (count % 2 == 0) continue;
 
     print(count);
   }while(count < 5);
