@@ -1,9 +1,12 @@
 void main() {
- var DateTime1 = DateTime.parse('2023-06-27 00:25:37');
- var DateTime2 = DateTime.parse('2023-06-27 00:25:35');
- var DateTime3 = DateTime2.add(Duration(seconds: 2));
+ List numbers1 = [1,2,3];
+ List numbers2 = [];
 
- print(DateTime1.compareTo(DateTime3));
- print(DateTime2);
- print(DateTime3);
+ numbers2.add(2);
+
+
+ print(numbers1.length);
+ print(numbers2.length);
+ print(numbers1);
+ print(numbers2);
 }
