@@ -1,10 +1,11 @@
+
 void main() {
-  Map phonebook = <String, String>{
-    'name1': 'phonenumber1', 
-    'name2': 'phonenumber2',
-    'name3': 'phonenumber3',
+  var numbers = <int>[1, 2, 3, 4, 5];
 
-  };
 
- print(phonebook);
+  for(var element in numbers) {
+    var square = element * element;
+
+    print('$element^2 = $square');
+  }
 }
