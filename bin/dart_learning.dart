@@ -26,5 +26,5 @@ class Article {
   void init1() => print('init1');
   void init2() => print('init2');
 
-  String getArticleInfo() => '${title}\n${body}';
+  String getArticleInfo() => '$title\n$body';
 }
