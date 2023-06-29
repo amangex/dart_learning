@@ -1,15 +1,17 @@
-typedef bool functiontypealias(int);
-
 void main() {
-  var numbers = <int>[1, 2, 3];
-  var removeCallback = (int a) => numbers.remove(a);
+  var article = Article();
+  article.title = 'OOP IN DART';
+  article.body = 'i hope that i understood what is oop in dart';
 
-  doWork(removeCallback);
-  print(numbers);
+
+
+  print(article.getArticleInfo());
 }
 
-void doWork(bool Function(int) callback) {
-  var result = callback(2);
 
-  print(result);
+class Article {
+  String? title;
+  String? body;
+
+  String getArticleInfo() => '${title}\n${body}';
 }
